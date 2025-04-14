@@ -48,5 +48,5 @@ jobs:
           jwt:
             secret: ${{secrets.JWT_SECRET}}
           EOL
-          cat front/.env
+          cat back/src/main/resources/application-secret.yml
           
