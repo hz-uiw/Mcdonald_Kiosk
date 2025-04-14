@@ -22,7 +22,7 @@ jobs:
       - name: create-application-secret
         run: |
           chmod 777 -R back
-          cat <<EOL > back/src/main/java/resources/application.secret.yml
+          cat <<EOL > back/src/main/java/resources/application-secret.yml
           spring:
             config:
               activate:
