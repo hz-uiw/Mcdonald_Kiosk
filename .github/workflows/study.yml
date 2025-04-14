@@ -13,6 +13,42 @@ jobs:
       - name: create-vite-env
         run: |
           chmod 777 -R front
-          cd front
-          echo "VITE_PORTONE_STOREID=${{secrets.VITE_PORTONE_STOREID}}" > ./.env
-          cat .env
+          cat <<EOL > front/.env
+          VITE_PORTONE_STOREID=${{secrets.VITE_PORTONE_STOREID}} # 상점ID
+          VITE_PORTONE_API_KEY=${{secrets.VITE_PORTONE_API_KEY}}
+          EOL
+          cat front/.env
+
+      - name: create-application-secret
+        run: |
+          chmod 777 -R back
+          cat <<EOL > back/src/main/java/resources/application.secret.yml
+          spring:
+            config:
+              activate:
+                on-profile: secret
+          
+            datasource:
+              driver-class-name: com.mysql.cj.jdbc.Driver
+              url: jdbc:mysql://${{secrets.EC2_PBULIC_IP}}:3306/${{secrets.DATABASE_NAME}}
+              # RDS 서버 주소나 탄력적 IP사용
+              username: ${{secrets.DATABASE_USERNAME}}
+              password: #{{secrets.DATABASE_PASSWORD}}
+          
+            security:
+              oauth2:
+                client:
+                  registration:
+                    google:
+                      client-id: ${{secrets.OAUTH2_ID_GOOGLE}}
+                      client-secret: ${{secrets.OAUTH2_SECRET_GOOGLE}}
+                    naver:
+                      client-id: ${{secrets.OAUTH2_ID_NAVER}}
+                      client-secret: ${{secrets.OAUTH2_SECRET_NAVER}}
+
+          jwt:
+            secret: ${{secrets.JWT_SECRET}}
+          # echo "VITE_PORTONE_STOREID=${{secrets.VITE_PORTONE_STOREID}}" > ./.env
+          EOL
+          cat front/.env
+          
