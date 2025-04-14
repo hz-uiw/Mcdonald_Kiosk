@@ -6,7 +6,7 @@ on:
 
 jobs:
   directory-print:
-    runs-on: ubnuntu-latest;
+    runs-on: ubnuntu-latest
     steps:
       - uses: actions/chekout@v4
       
