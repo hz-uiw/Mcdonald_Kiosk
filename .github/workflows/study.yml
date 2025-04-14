@@ -6,9 +6,9 @@ on:
 
 jobs:
   directory-print:
-    runs-on: ubnuntu-latest
+    runs-on: ubnutu-latest
     steps:
-      - uses: actions/chekout@v4
+      - uses: actions/checkout@v4
       
       - name: print
         run: ls -a
