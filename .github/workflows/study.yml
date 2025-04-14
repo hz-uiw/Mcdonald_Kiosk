@@ -31,7 +31,6 @@ jobs:
             datasource:
               driver-class-name: com.mysql.cj.jdbc.Driver
               url: jdbc:mysql://${{secrets.EC2_PBULIC_IP}}:3306/${{secrets.DATABASE_NAME}}
-              # RDS 서버 주소나 탄력적 IP사용
               username: ${{secrets.DATABASE_USERNAME}}
               password: #{{secrets.DATABASE_PASSWORD}}
           
@@ -48,7 +47,6 @@ jobs:
 
           jwt:
             secret: ${{secrets.JWT_SECRET}}
-          # echo "VITE_PORTONE_STOREID=${{secrets.VITE_PORTONE_STOREID}}" > ./.env
           EOL
           cat front/.env
           
