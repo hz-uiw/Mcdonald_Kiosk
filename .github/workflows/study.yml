@@ -84,8 +84,8 @@ jobs:
           usernasme: ubuntu
           key: ${{secrets.SSH_KEY}}
           script: |
-            sudo docker pull ${{DOCKER_USERNAME}}/mcdonald-react-app:latest
-            sudo docker pull ${{DOCKER_USERNAME}}/mcdonald-spring-app:latest
+            sudo docker pull ${{secrets.DOCKER_USERNAME}}/mcdonald-react-app:latest
+            sudo docker pull ${{secrets.DOCKER_USERNAME}}/mcdonald-spring-app:latest
             cd /home/ubuntu/project
             sudo docker-compose -f project-compose.yml down
             sudo docker-compose -f project-compose.yml up -d
