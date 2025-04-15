@@ -8,9 +8,10 @@ jobs:
   build-push:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 📦 Checkout
+        uses: actions/checkout@v4
       
-      - name: create-vite-env
+      - name: 📃 create-vite-env
         run: |
           chmod 777 -R front
           cat <<EOL > front/.env
@@ -19,7 +20,7 @@ jobs:
           EOL
           cat front/.env
 
-      - name: create-application-secret
+      - name: 📃 create-application-secret
         run: |
           chmod 777 -R back
           cat <<EOL > back/src/main/resources/application-secret.yml
@@ -55,19 +56,19 @@ jobs:
           ls -a front
           ls -a back/src/main/resources
 
-      - name: 🤖 DockerHub-LOGIN
+      - name: 🔐 DockerHub-LOGIN
         uses: docker/login-action@v3.4.0
         with:
           username: ${{secrets.DOCKER_USERNAME}}
           password: ${{secrets.DOCKER_PASSWORD}}
 
-      - name:  Build-And-Push-React-App
+      - name: 🧱 Build-And-Push-React-App
         run: |
           cd front
           docker build -t ${{secrets.DOCKER_USERNAME}}/mcdonald-react-app .
           docker push ${{secrets.DOCKER_USERNAME}}/mcdonald-react-app:latest
           
-      - name:  Build-And-Push-Spring-App
+      - name: 🧱 Build-And-Push-Spring-App
         run: |
           cd back
           docker build -t ${{secrets.DOCKER_USERNAME}}/mcdonald-spring-app .
