@@ -96,7 +96,7 @@
     </thead>
     <tbody>
         <td align="center">
-            <a href="https://github.com/dongyoon7212">
+            <a href="https://github.com/hz-uiw">
                 <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="150" height="150" />
             </a>
         </td>
