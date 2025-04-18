@@ -238,8 +238,6 @@
 
 -   <a href="https://www.notion.so/1b9670a125c880199577d132b04763fa">📋 맥도날드 키오스크 회의록</a>
     -   매일 조회의를 통해 금일 각자 본인이 해야할 내용을 주고 받으면서  + 팀원이 금일 어떤 작업을 진행하고 있는지를 알 수 있어 의사소통 비용을 줄일 수 있었습니다.
--   <a href="https://github.com/orgs/Novel-Ideas/projects/1">📁 GitHub Projects</a>
-    -   칸반 보드로 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
 
 <p align="right" dir="auto">
 <a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
