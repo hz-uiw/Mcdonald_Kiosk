@@ -609,7 +609,7 @@
 ### 권민창(팀장)
 
 <div align="center">
-    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="200" height="200" />
+    <img src="https://avatars.githubusercontent.com/u/174016319?v=4" width="200" height="200" />
 </div>
 <span>처음해보는 프로젝트에 조장이 돼서 부담이 많이 됐지만 팀원들이 저를 많이 도와줘서 정말 감사히 생각하고 있습니다. 강사님이 만드시는 것을 따라 만드는 것이 아닌 스스로 웹페이지를 만들어 보는 기회가 되어서 제 부족한 부분과 보충해야 할 점을 알게 되었습니다. 아쉬운 부분도 있지만, 이번 프로젝트 덕에 여태 학습했던 내용을 되짚어보는 좋은 시간이었다고 생각합니다.</span>
 
