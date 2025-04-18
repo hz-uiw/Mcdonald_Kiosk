@@ -468,7 +468,6 @@
 </p>
 
 <br/>
-<br/>
 
 ## 📆 프로젝트 일정
 
@@ -494,7 +493,7 @@
 <a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
-<br/>
+
 <br/>
 
 ## 📋 메뉴 구조도
