@@ -29,7 +29,6 @@ function OrderPage(props) {
             backToHome: "처음으로",
             order: "주문하기",
             voucher: "상품권",
-            emptyCart: "장바구니에 아무것도 없습니다.",
             modify: "수정",
             delete: "삭제",
             set: "세트",
@@ -39,7 +38,6 @@ function OrderPage(props) {
             backToHome: "Home",
             order: "Order Now",
             voucher: "Voucher",
-            emptyCart: "Your cart is empty.",
             modify: "Modify",
             delete: "Delete",
             set: "Set",
@@ -175,7 +173,7 @@ function OrderPage(props) {
                             ))} 
                         </ul>
                     ) : (
-                        <p>{languageTexts[selectedLanguage].emptyCart}</p>
+                        <></>
                     )}
                 </div>
                 <span>

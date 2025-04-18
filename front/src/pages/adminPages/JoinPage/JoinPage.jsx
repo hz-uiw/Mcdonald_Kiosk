@@ -120,7 +120,8 @@ function JoinPage(props) {
     };
 
     const handleOAuth2LoginOnClick = (provider) => {
-        window.location.href = `https://qwerasdfzxcv.store/oauth2/authorization/${provider}`;
+        // window.location.href = `http://localhost:8080/oauth2/authorization/${provider}`;
+        window.location.href = `http://qwerasdfzxcv.store/oauth2/authorization/${provider}`;
     }
 
     const handleKeyDown = (e) => {
