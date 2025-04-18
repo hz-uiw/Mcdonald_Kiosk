@@ -77,7 +77,7 @@
 <br/>
 
 <p align="right" dir="auto">
-<a href="https://github.com/hz-uiw/Mcdonald_Kiosk/blob/main/README.md">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 ## 👥 팀원 소개
@@ -119,7 +119,7 @@
 </div>
 
 <p align="right" dir="auto">
-<a href="https://github.com/hz-uiw/Mcdonald_Kiosk/blob/main/README.md">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 ## 💼 역할 분담
@@ -206,7 +206,7 @@
 -   DB 설계
 
 <p align="right" dir="auto">
-<a href="https://github.com/Mcdonald-Kiosk">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -228,7 +228,7 @@
 5. PR이 merge되어 close 되면 해당 이슈는 자동으로 Done상태로 변경됩니다.
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -243,7 +243,7 @@
     -   칸반 보드로 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
     
 <br/>
@@ -260,7 +260,7 @@
 -   기본적으로 master branch에 대한 규칙만 정확하게 정립되어 있다면 나머지 가지들에 대해서는 특별한 관여를 하지 않으며 pull request기능을 사용하도록 권장하였습니다.
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -373,7 +373,7 @@
 </div>
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -468,7 +468,7 @@
 | web-vitals                                                                  | 사용자의 웹 바이탈 항목 측정               |
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -479,7 +479,7 @@
 ![Image](https://github.com/user-attachments/assets/f5d76794-af35-4d10-a8a5-275daf22d89c)
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -496,7 +496,7 @@
 ![ERD 다이어그램](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/5074a2e8-503f-48f6-9b48-dfd2a56f7938)
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -512,7 +512,7 @@
 ![관리자 메뉴 구조도](https://github.com/user-attachments/assets/c29ba4b1-2ac6-418a-8060-0c45af858e71)
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 <br/>
@@ -600,7 +600,7 @@
 </br>
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
 
 </br>
