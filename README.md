@@ -487,12 +487,11 @@
 ## 📄 API 명세서&ERD 설계도
 
 ### 🛰 API 명세서
-
 [https://mangrove-comic-a17.notion.site/da55c3b2cb47486eb592dbc297ae8e01?v=f865787f598c4dec933cb6990c5719cd&pvs=4](https://www.notion.so/API-1ba6b4c1c40a8088bf05f6da67394a8b)
 
 ### 📐 ERD 설계도
 
-![ERD 다이어그램](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/5074a2e8-503f-48f6-9b48-dfd2a56f7938)
+![ERD 다이어그램](https://github.com/user-attachments/assets/ba929533-2ae5-4b65-b2e8-2989c5875b7e)
 
 <p align="right" dir="auto">
 <a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
