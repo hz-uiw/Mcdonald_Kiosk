@@ -36,7 +36,7 @@
 
 ### 🌟 제목
 
--   매장용 키오스크 "팀이름" 개발
+-   매장용 맥도날드 키오스크 개발
 
 ### 🚀 목적
 
@@ -127,9 +127,9 @@
 <h3> 🛩 팀장: 권민창 </h3>
 
 ### 🔧 Back-End
-- 제품 이름, 이미지, 카테고리, 노출여부, 우선순위 조회/추가/수정/삭제 GET/POST/PUT/DELETE 요청
-- 제품 가격 추가 조회/추가/수정/삭제 GET/POST/PUT/DELETE 요청
-- 제품 영양정보 및 원산지 추가 조회/추가/수정/삭제 GET/POST/PUT/DELETE 요청
+- 제품 이름, 이미지, 카테고리, 노출여부, 우선순위 관리 (GET/POST/PUT/DELETE) 요청
+- 제품 가격 관리 (GET/POST/PUT/DELETE) 요청
+- 제품 영양정보 및 원산지 관리 (GET/POST/PUT/DELETE) 요청
 
 ### 🖥 Front-End
 - 사용자 및 관리자 페이지 초기설정
@@ -238,14 +238,11 @@
 
 -   <a href="https://www.notion.so/1b9670a125c880199577d132b04763fa">📋 맥도날드 키오스크 회의록</a>
     -   매일 조회의를 통해 금일 각자 본인이 해야할 내용을 주고 받으면서  + 팀원이 금일 어떤 작업을 진행하고 있는지를 알 수 있어 의사소통 비용을 줄일 수 있었습니다.
--   <a href="https://github.com/orgs/Novel-Ideas/projects/1">📁 GitHub Projects</a>
-    -   칸반 보드로 프로젝트 진행 상황을 한 눈에 확인할 수 있어 일정을 관리하기 수월했습니다.
 
 <p align="right" dir="auto">
 <a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
 </p>
     
-<br/>
 <br/>
 
 ## 🔍 브랜치 전략
@@ -487,12 +484,11 @@
 ## 📄 API 명세서&ERD 설계도
 
 ### 🛰 API 명세서
-
 [https://mangrove-comic-a17.notion.site/da55c3b2cb47486eb592dbc297ae8e01?v=f865787f598c4dec933cb6990c5719cd&pvs=4](https://www.notion.so/API-1ba6b4c1c40a8088bf05f6da67394a8b)
 
 ### 📐 ERD 설계도
 
-![ERD 다이어그램](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/5074a2e8-503f-48f6-9b48-dfd2a56f7938)
+![ERD 다이어그램](https://github.com/user-attachments/assets/ba929533-2ae5-4b65-b2e8-2989c5875b7e)
 
 <p align="right" dir="auto">
 <a href="https://github.com/hz-uiw/Mcdonald_Kiosk">TOP 🔼</a>
@@ -610,7 +606,7 @@
 ### 권민창(팀장)
 
 <div align="center">
-    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="200" height="200" />
+    <img src="https://avatars.githubusercontent.com/u/174016319?v=4" width="200" height="200" />
 </div>
 <span>처음해보는 프로젝트에 조장이 돼서 부담이 많이 됐지만 팀원들이 저를 많이 도와줘서 정말 감사히 생각하고 있습니다. 강사님이 만드시는 것을 따라 만드는 것이 아닌 스스로 웹페이지를 만들어 보는 기회가 되어서 제 부족한 부분과 보충해야 할 점을 알게 되었습니다. 아쉬운 부분도 있지만, 이번 프로젝트 덕에 여태 학습했던 내용을 되짚어보는 좋은 시간이었다고 생각합니다.</span>
 
