@@ -77,7 +77,7 @@
 <br/>
 
 <p align="right" dir="auto">
-<a href="https://github.com/Mcdonald-Kiosk">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk/blob/main/README.md">TOP 🔼</a>
 </p>
 
 ## 👥 팀원 소개
@@ -119,7 +119,7 @@
 </div>
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/hz-uiw/Mcdonald_Kiosk/blob/main/README.md">TOP 🔼</a>
 </p>
 
 ## 💼 역할 분담
