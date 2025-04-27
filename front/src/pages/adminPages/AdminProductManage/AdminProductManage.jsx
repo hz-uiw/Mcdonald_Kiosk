@@ -164,12 +164,12 @@ function AdminProductManage() {
     
         try {
             await addMenuMutation.mutateAsync(formData);
-            alert("✅ 메뉴가 성공적으로 추가되었습니다.");
+            alert("메뉴가 성공적으로 추가되었습니다.");
             setFormData(INITIAL_FORM_DATA);
             setIsAdding(false);
             setIsEditing(false);
         } catch (error) {
-            alert("❌ 메뉴 추가 실패!");
+            alert("메뉴 추가 실패!");
         }
     };
 
@@ -179,10 +179,10 @@ function AdminProductManage() {
                 menuId: selectedMenu,
                 formData,
             });
-            alert("✅ 메뉴가 성공적으로 수정되었습니다.");
+            alert("메뉴가 성공적으로 수정되었습니다.");
             setIsEditing(false);
         } catch (error) {
-            alert("❌ 메뉴 수정 중 오류 발생!");
+            alert("메뉴 수정 중 오류 발생!");
         }
     };
 

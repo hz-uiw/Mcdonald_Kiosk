@@ -99,7 +99,7 @@ const SelectPayMethod = () => {
         quantity: item.quantity,
     }));
 
-    // ✅ 장바구니 데이터를 order_detail_tb용으로 가공
+    // 장바구니 데이터를 order_detail_tb용으로 가공
     const buildOrderDetailList = async () => {
         if (!menuData || menuData.length === 0) return [];
     
@@ -184,7 +184,6 @@ const SelectPayMethod = () => {
 
     const handlePaymentOnClick = async () => {
         try {
-            console.log("여기 실행되야 하는데?")
             const orderDetailList = await buildOrderDetailList();
             const orderIdFromList = products[0].orderNumber;
             incrementOrderId();  
@@ -217,11 +216,11 @@ const SelectPayMethod = () => {
 
             const point = Math.floor(totalPrice * 0.05);
 
-            // ✅ order_tb 먼저 post (비동기 처리)
+            // order_tb 먼저 post (비동기 처리)
             console.log("order_tb에 보낼 데이터:", products[0].orderNumber + 1, totalPrice);
             await postOrder({ orderTempId: products[0].orderNumber + 1, totalPrice: totalPrice });
 
-            // ✅ order_detail_tb는 order_tb가 성공한 후 실행해야 함
+            // order_detail_tb는 order_tb가 성공한 후 실행해야 함
             console.log("order_detail_tb에 보낼 데이터:", orderDetailList);
             await postOrderDetail(orderDetailList);
 

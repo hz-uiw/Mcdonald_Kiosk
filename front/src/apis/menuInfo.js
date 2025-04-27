@@ -7,7 +7,7 @@ export const fetchMenuInfoListApi = async (menuId) => {
         const response = await api.get(`/api/admin/menuInfo/${menuId}`);
         return response.data;
     } catch (error) {
-        console.error("❌ [fetchMenuInfoListApi] 요청 실패:", error);
+        console.error("[fetchMenuInfoListApi] 요청 실패:", error);
         throw error;
     }
 };
@@ -18,7 +18,7 @@ export const updateMenuInfoApi = async (menuInfo) => {
         const response = await api.put("/api/admin/menuInfo", menuInfo);
         return response.data;
     } catch (error) {
-        console.error("❌ [updateMenuInfoApi] 요청 실패:", error);
+        console.error("[updateMenuInfoApi] 요청 실패:", error);
         throw error;
     }
 };

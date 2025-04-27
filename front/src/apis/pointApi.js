@@ -34,7 +34,7 @@ export const getPointApi = async (phoneNumber) => {
 
   export const usePointApi = async ({ phoneNumber, calcul, point }) => {
     if (!phoneNumber) {
-        console.error("⚠️ phoneNumber가 없습니다. API 호출을 중단합니다.");
+        console.error("phoneNumber가 없습니다. API 호출을 중단합니다.");
         return null;
     }
 

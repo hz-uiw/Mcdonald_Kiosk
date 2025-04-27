@@ -11,7 +11,7 @@ export const useAddMenuMutation = () => {
             queryClient.invalidateQueries({queryKey: ["menuData"]});
         },
         onError: (error) => {
-            console.error("❌ [useAddMenuMutation] 메뉴 추가 실패:", error);
+            console.error("[useAddMenuMutation] 메뉴 추가 실패:", error);
         },
     });
 };
@@ -26,7 +26,7 @@ export const useUpdateMenuMutation = () => {
             queryClient.invalidateQueries({queryKey: ["menuData"]});
         },
         onError: (error) => {
-            console.error("❌ [useUpdateMenuMutation] 메뉴 수정 실패:", error);
+            console.error("[useUpdateMenuMutation] 메뉴 수정 실패:", error);
         },
     });
 };
@@ -41,7 +41,7 @@ export const useDeleteMenuMutation = () => {
             queryClient.invalidateQueries({queryKey: ["menuData"]});
         },
         onError: (error) => {
-            console.error("❌ [useDeleteMenuMutation] 메뉴 삭제 실패:", error);
+            console.error("[useDeleteMenuMutation] 메뉴 삭제 실패:", error);
         },
     });
 };

@@ -5,10 +5,10 @@ import { instance, portOneInstance } from "../utils/instance";
 export const searchSalesByMenuRequest = async () => {
     try {
         const response = await api.get("/api/admin/menusales");
-        console.log("🔥 [searchSalesByMenuRequest] 전체 메뉴 응답:", response.data);
+        console.log("[searchSalesByMenuRequest] 전체 메뉴 응답:", response.data);
         return response.data;
     } catch (error) {
-        console.error("❌ [searchSalesByMenuRequest] API 요청 실패:", error);
+        console.error("[searchSalesByMenuRequest] API 요청 실패:", error);
         throw error;
     }
 };

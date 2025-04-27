@@ -22,7 +22,7 @@ export const adminFetchMenuApi = async () => {
         const response = await api.get("/api/admin/menus");
         return response.data;
     } catch (error) {
-        console.error("❌ [adminFetchMenuApi] API 요청 실패:", error);
+        console.error("[adminFetchMenuApi] API 요청 실패:", error);
         throw error;
     }
 };
@@ -30,16 +30,16 @@ export const adminFetchMenuApi = async () => {
 // 특정 메뉴 상세 정보 가져오기
 export const fetchMenuDetailApi = async (menuId) => {
     if (!menuId) {
-        console.warn("⚠️ [fetchMenuDetail] menuId가 없습니다.");
+        console.warn("[fetchMenuDetail] menuId가 없습니다.");
         return null;
     }
 
     try {
         const response = await api.get(`/api/admin/menus/${menuId}`);
-        console.log(`🔥 [fetchMenuDetail] 선택한 메뉴(${menuId}) 응답:`, response.data);
+        console.log(`[fetchMenuDetail] 선택한 메뉴(${menuId}) 응답:`, response.data);
         return response.data;
     } catch (error) {
-        console.error("❌ [fetchMenuDetail] API 요청 실패:", error);
+        console.error("[fetchMenuDetail] API 요청 실패:", error);
         throw error;
     }
 };
@@ -47,7 +47,7 @@ export const fetchMenuDetailApi = async (menuId) => {
 // 메뉴 추가
 export const addMenuApi = async (formData) => {
     const token = localStorage.getItem("AccessToken");
-    if (!token) throw new Error("❌ 인증 정보 없음!");
+    if (!token) throw new Error("인증 정보 없음!");
 
     const validPrices = formData.prices
         .filter((p) => p.price && Number(p.price) > 0)
@@ -77,7 +77,7 @@ export const addMenuApi = async (formData) => {
         });
         return response.data;
     } catch (error) {
-        console.error("❌ [addMenuApi] 실패:", error);
+        console.error("[addMenuApi] 실패:", error);
         throw error;
     }
 };
@@ -85,7 +85,7 @@ export const addMenuApi = async (formData) => {
 // 메뉴 수정
 export const updateMenuApi = async (menuId, formData) => {
     const token = localStorage.getItem("AccessToken");
-    if (!token) throw new Error("❌ 인증 정보 없음!");
+    if (!token) throw new Error("인증 정보 없음!");
 
     const validPrices = formData.prices
         .filter((p) => p.price && Number(p.price) > 0)
@@ -115,7 +115,7 @@ export const updateMenuApi = async (menuId, formData) => {
         });
         return response.data;
     } catch (error) {
-        console.error("❌ [updateMenuApi] 실패:", error);
+        console.error("[updateMenuApi] 실패:", error);
         throw error;
     }
 };
@@ -123,7 +123,7 @@ export const updateMenuApi = async (menuId, formData) => {
 // 메뉴 삭제
 export const deleteMenuApi = async (menuId) => {
     const token = localStorage.getItem("AccessToken");
-    if (!token) throw new Error("❌ 인증 정보 없음!");
+    if (!token) throw new Error("인증 정보 없음!");
 
     const response = await api.delete(`/api/admin/menus/${menuId}`, {
         headers: { Authorization: `Bearer ${token}` },
